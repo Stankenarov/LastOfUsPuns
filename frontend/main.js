@@ -1,7 +1,7 @@
 document.querySelector(".get-random-pun").addEventListener("click", displayPun);
 
 function displayPun(){
-    fetch('http://localhost:5000/api/puns')
+    fetch('https://lastofuspuns.onrender.com/api/puns')
     .then(res => res.json())
     .then(data=>{
         
