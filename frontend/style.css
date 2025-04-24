@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+.title{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(155deg, #4e6e51d5 50%, #57550a 50%);
+}
+
+
+.get-random-pun{
+    position: absolute;
+    right: 50%
+}
+.punch-img{
+    width: 75px;
+}
+
+.line-img{
+    width: 75px;
+}
+
+.punchlineBtn{
+    margin: auto;
+    position : absolute;
+    right: 50%;
+    top: 50%;
+}
+
+
+.setup{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    left: 3%
+}
+
+.punchline{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute;
+    bottom: 25%;
+    right: 3%;
+}

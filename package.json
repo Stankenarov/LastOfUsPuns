@@ -1,0 +1,18 @@
+{
+  "name": "puns",
+  "version": "1.0.0",
+  "description": "The lat of us puns ",
+  "main": "./backend/server.js",
+  "scripts": {
+    "start": "nodemon ./backend/server.js"
+  },
+  "author": "Stan",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
